@@ -1,0 +1,7 @@
+<view class="result-page">
+    <view class="header">{{item.title}}</view>
+    <view class="avatar-container">
+        <image class="avatar" src="{{item.avatar}}" />
+    </view>
+    <view class="content">{{item.desc}}</view>
+</view>

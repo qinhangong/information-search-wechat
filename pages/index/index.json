@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信息查询",
+  "usingComponents": {
+    "i-card": "../../dist/card/index"
+  }
+}

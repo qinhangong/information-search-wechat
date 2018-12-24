@@ -1,0 +1,23 @@
+/**index.wxss**/
+
+.empty {
+  margin-top: 200px;
+  color: #eeeeee;
+  text-align: center;
+}
+.card-item{
+  margin-bottom: 10px;
+}
+.del-icon{
+  z-index:10;
+  position:absolute;
+  right:20px;
+  top:3px;
+}
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

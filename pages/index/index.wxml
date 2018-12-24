@@ -1,0 +1,13 @@
+<!-- index.wxml -->
+<view class="index-container">
+  <view class="info-list" wx:if="{{list.length>0}}">
+    <view wx:for="{{list}}" wx:key="{{item._id}}" class="card-item" >
+        <i-card title="" extra="{{item.title}}" thumb="{{item.avatar}}" >
+          <view class="content" slot="content" data-id="{{item._id}}" bindtap="handleClick">
+            {{item.desc}}
+          </view>
+        </i-card>
+    </view>
+  </view>
+  <view class="empty" wx:else>{{emptyMessage}}</view>
+</view>

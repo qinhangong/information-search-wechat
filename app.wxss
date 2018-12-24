@@ -1,0 +1,3 @@
+.i-card-footer {
+  display: none;
+}
